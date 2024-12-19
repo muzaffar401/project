@@ -7,7 +7,6 @@ import { Menu, X } from 'lucide-react'
 
 export default function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
-    //  multi pages 
     const menuItems = [
         { name: "Home", href: "/", active: true },
         { name: "Menu", href: "/Manu" },
