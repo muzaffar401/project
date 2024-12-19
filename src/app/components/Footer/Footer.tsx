@@ -31,15 +31,15 @@ export default function Footer() {
             <p className="mb-6">Do not wait make a smart & logical quote here. Its pretty easy.</p>
           </div>
 
-          <form className="w-[259px] md:w-[459px] h-[55.86px] flex max-w-2xl mx-0 md:mx-auto">
+          <form className="flex-col md:flex-row space-y-4">
             <input
               type="email"
               placeholder="Enter Your Email"
-              className="flex-grow bg-[#FF9F0D] text-white placeholder-white placeholder-opacity-60 px-4 py-2 rounded-l-md focus:outline-none"
+              className="flex-grow bg-[#FF9F0D] text-white placeholder:text-center md:placeholder:text-start placeholder-white placeholder-opacity-60 px-4 py-4 rounded-l-md focus:outline-none"
             />
             <button
               type="submit"
-              className="bg-white text-[#FF9F0D] px-6 py-2 rounded-r-md font-semibold hover:bg-[#FF9F0D] hover:text-white transition duration-300"
+              className="bg-white text-[#FF9F0D] px-6 py-4 rounded-r-md font-semibold hover:bg-[#FF9F0D] hover:text-white transition duration-300"
             >
               Subscribe Now
             </button>
@@ -54,7 +54,7 @@ export default function Footer() {
             </p>
             <div className="flex items-start">
               <div className="bg-[#FF9F0D] p-2 rounded mr-4 w-[77.23px] h-[70.79px]">
-                <Clock className="text-white" />
+                <Clock className="text-white m-auto" />
               </div>
               <div>
                 <h4 className="font-semibold">Opening Hours</h4>
@@ -101,7 +101,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className="bg-[#4F4F4F] py-8 flex ">
+      <div className="bg-[#4F4F4F] py-8 flex">
         <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
           <p className="text-[16px] leading-6 mb-4 md:mb-0">
             Copyright © 2022 by Syeda Laiba. All Rights Reserved.
