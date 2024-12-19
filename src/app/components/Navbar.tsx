@@ -63,7 +63,7 @@ export default function Navbar() {
                         <Image src="/search.png" alt="search" width={24} height={24} />
                     </Link>
                     <Link href="/" className="text-white hover:text-[#FF9F0D] transition-colors">
-                        <Image src="/user.png" alt="user" width={24} height={24} />
+                        <Image src="/newUser.png" alt="user" width={24} height={24} />
                     </Link>
                     <Link href="/" className="text-white hover:text-[#FF9F0D] transition-colors">
                         <Image src="/Handbag.png" alt="cart" width={24} height={24} />
