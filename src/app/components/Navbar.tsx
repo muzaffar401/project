@@ -66,7 +66,7 @@ export default function Navbar() {
                         <Image src="/user.png" alt="user" width={24} height={24} />
                     </Link>
                     <Link href="/" className="text-white hover:text-[#FF9F0D] transition-colors">
-                        <Image src="/tote.png" alt="cart" width={24} height={24} />
+                        <Image src="/Handbag.png" alt="cart" width={24} height={24} />
                     </Link>
                 </div>
             </nav>
